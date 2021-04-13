@@ -4,19 +4,13 @@
 
 This project is for study elixir, phoenix, postgres, ecto and anouthers technologies. 
 
-With this project you can:
-
-- [ ] View Authors
-- [ ] View a single Author
-- [x] Create Authors
-- [ ] Edit Authors
-- [ ] Delete Authors
-
-- [ ] View Posts
-- [ ] View a single Post
-- [x] Create Posts
-- [ ] Edit Posts
-- [ ] Delete Posts
+And is builded with:
+  - Elixir
+  - Phoenix
+    * Jason
+    * Plug
+  - Ecto
+  - Docker-Compose
 
 ## Installing the project
 
@@ -68,3 +62,21 @@ Yet not have none route, but this routes is in development.
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Todo List
+
+- [ ] View Authors
+- [ ] View a single Author
+- [x] Create Authors
+- [ ] Edit Authors
+- [ ] Delete Authors
+
+-- --
+
+- [ ] View Posts
+- [ ] View a single Post
+- [x] Create Posts
+- [ ] Edit Posts
+- [ ] Delete Posts
+
+
