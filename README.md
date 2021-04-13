@@ -70,9 +70,6 @@ Yet not have none route, but this routes is in development.
 - [x] Create Authors
 - [ ] Edit Authors
 - [ ] Delete Authors
-
--- --
-
 - [ ] View Posts
 - [ ] View a single Post
 - [x] Create Posts
