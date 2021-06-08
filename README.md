@@ -75,5 +75,6 @@ Yet not have none route, but this routes is in development.
 - [x] Create Posts
 - [ ] Edit Posts
 - [ ] Delete Posts
+- [x] Creating Migrations
 
 
