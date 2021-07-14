@@ -4,14 +4,19 @@ defmodule BlogEngine.Authors do
 
   def get_author(author_id) do
     try do
-      result = Repo.get_by!(Author, id: author_id)
-
-      {:ok, result}
+      Repo.get!(Author, author_id)
     rescue
       Ecto.NoResultsError ->
         {:error, "Non found result of this author id."}
     end
   end
+
+  # Params:
+  #   name,
+  #   email,
+  #   nickname,
+  #   bio,
+  #   age
 
   def create_author(params) do
     params
