@@ -8,4 +8,8 @@ defmodule BlogEngineWeb.Router do
   scope "/api", BlogEngineWeb do
     pipe_through :api
   end
+
+  scope "graphiql" do
+    forward "/", Absinthe.Plug.GraphiQL, schema: BlogEngineWeb.Schema
+  end
 end
