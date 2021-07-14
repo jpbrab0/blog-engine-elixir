@@ -2,13 +2,14 @@
 
 ## Presentation
 
-This project is for study elixir, phoenix, postgres, ecto and anouthers technologies. 
+This project is for study elixir, phoenix, postgres, ecto, graphql and anouthers technologies. 
 
 And is builded with:
   - Elixir
   - Phoenix
     * Jason
     * Plug
+  - GraphQL
   - Ecto
   - Docker-Compose
 
@@ -53,7 +54,7 @@ docker-compose up -d
 
 ## Endpoints
 
-Yet not have none route, but this routes is in development.
+Yet not have none route, because this api is builded with graphql, but you can make graphql query to get the data.
 
 ## Learn more about Phoenix
 
@@ -66,7 +67,7 @@ Yet not have none route, but this routes is in development.
 ## Todo List
 
 - [ ] View Authors
-- [ ] View a single Author
+- [x] View a single Author
 - [x] Create Authors
 - [ ] Edit Authors
 - [ ] Delete Authors
@@ -76,5 +77,3 @@ Yet not have none route, but this routes is in development.
 - [ ] Edit Posts
 - [ ] Delete Posts
 - [x] Creating Migrations
-
-
