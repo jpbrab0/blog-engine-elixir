@@ -23,7 +23,6 @@ defmodule BlogEngine.Authors.Schemas.Author do
     |> cast(params, @required ++ @optional)
     |> validate_required(@required)
     |> validate_format(:email, ~r/[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/)
-    |> validate_inclusion(:age, min: 18)
     |> unique_constraint(@unique_fields)
   end
 end
