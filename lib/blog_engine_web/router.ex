@@ -5,11 +5,9 @@ defmodule BlogEngineWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/api", BlogEngineWeb do
-    pipe_through :api
-  end
+  scope "/api" do
+    forward "/graphql", Absinthe.Plug, schema: BlogEngineWeb.Schema
 
-  scope "graphiql" do
-    forward "/", Absinthe.Plug.GraphiQL, schema: BlogEngineWeb.Schema
+    forward "/playground", Absinthe.Plug.GraphiQL, schema: BlogEngineWeb.Schema
   end
 end
